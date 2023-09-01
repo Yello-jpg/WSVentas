@@ -36,7 +36,7 @@ namespace WSVentas3.Services
                     catch (Exception ex)
                     {
                         transaction.Rollback();
-                        throw new Exception("Ocurrio un error en la inserción _Commit2");
+                        throw new Exception("Ocurrio un error en la inserción _Commit3");
                     }
                 }
             }
